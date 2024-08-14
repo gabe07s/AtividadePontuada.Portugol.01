@@ -1,3 +1,4 @@
+
 programa
 {
 	
@@ -14,8 +15,10 @@ programa
 
 	resultado_final = (unidade_um + unidade_dois)/2
 
-	se (resultado_final > 4) {
+	se (resultado_final >= 6) {
 	escreva("VOCÊ PASSOU!!!") } 
+	senao se (resultado_final >= 4 e resultado_final < 6)
+	escreva("Você ficou de recuperação.")
 	senao 
 	escreva("Você perdeu...")
 
@@ -25,14 +28,3 @@ programa
 	 
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 267; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
